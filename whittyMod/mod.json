@@ -1,0 +1,14 @@
+{
+	"title":"Whitty Mod",
+	"description":"Vs Whitty",
+	"homepage": "https://gamebanana.com/mods/44214",
+	"contributors": [
+		{
+			"name": "Nate Anim8",
+			"role": "Developer"
+		}
+	],
+	"api_version":"0.2.6",
+	"mod_version":"1.0.0",
+    "license":"Apache 2.0"
+}

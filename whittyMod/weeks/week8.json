@@ -1,0 +1,42 @@
+{
+	"songs": [
+		{
+			"name": "Lo-Fight",
+			"character": "whitty",
+			"colors": [
+				29,
+				30,
+				53
+			]
+		},
+		{
+			"name": "Overhead",
+			"character": "whitty",
+			"colors": [
+				29,
+				30,
+				53
+			]
+		},
+		{
+			"name": "Ballistic",
+			"character": "whittyCrazy",
+			"colors": [
+				206,
+				0,
+				44
+			]
+		}
+	],
+	"characters": [
+		"whitty",
+		"bf",
+		"gf"
+	],
+	"name": "Back Alley Blitz",
+	"locked": false,
+	"unlockAfter": "",
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"hiddenUntilUnlocked": false
+}
