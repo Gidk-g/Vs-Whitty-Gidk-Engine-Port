@@ -3,7 +3,7 @@ var wstageFront = FlxSprite;
 
 function create()
 {
-    setGF('gf-whitty');
+    PlayState.instance.gfVersion = 'gf-whitty';
 
     wBg = new FlxSprite(-500, -300).loadGraphic(Paths.image('whittyBack'));
     wBg.antialiasing = true;
@@ -17,6 +17,6 @@ function create()
     wstageFront.scrollFactor.set(0.9, 0.9);
     wstageFront.active = false;
 
-    add(wBg);
-    add(wstageFront);
+    PlayState.instance.add(wBg);
+    PlayState.instance.add(wstageFront);
 }
