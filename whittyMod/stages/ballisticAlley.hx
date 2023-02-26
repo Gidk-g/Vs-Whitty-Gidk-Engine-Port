@@ -3,7 +3,7 @@ var funneEffect = FlxSprite;
 
 function create()
 {
-    PlayState.instance.gfVersion = 'gf-whittyBallistic';
+    setGF('gf-whittyBallistic');
 
     nwBg = new FlxSprite(-600, -200);
     nwBg.frames = Paths.getSparrowAtlas('BallisticBackground');
@@ -11,8 +11,7 @@ function create()
     nwBg.scrollFactor.set(0.9, 0.9);
     nwBg.antialiasing = true;
     nwBg.active = true;
-
-    PlayState.instance.add(nwBg);
+    add(nwBg);
 }
 
 function createPost()
@@ -21,7 +20,7 @@ function createPost()
 	funneEffect.alpha = 0.5;
 	funneEffect.scrollFactor.set();
 	funneEffect.visible = true;
-	PlayState.instance.add(funneEffect);
+	add(funneEffect);
 
 	funneEffect.cameras = [PlayState.instance.camHUD];
 
