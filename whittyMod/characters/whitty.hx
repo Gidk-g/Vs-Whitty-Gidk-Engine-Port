@@ -1,4 +1,4 @@
-function createCharacter(curCharacter, isPlayer)
+function createCharacter(curCharacter)
 {
     character.frames = Paths.getSparrowAtlas('WhittySprites');
 
